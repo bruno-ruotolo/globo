@@ -1,0 +1,79 @@
+/* CSS de elementos comuns para toda a página (Desktop e Mobile) */
+
+body {
+  font-family: "Encode Sans", sans-serif;
+  background-color: #ffffff;
+}
+
+.line-header {
+  border: 1px solid #f5f6f7;
+  width: 100%;
+}
+
+/* Colors do texto do Header */
+.g1 {
+  color: #c3170c;
+}
+
+.o-globo {
+  color: #1e4b9b;
+}
+
+.valor {
+  color: #006766;
+}
+
+.ge {
+  color: #07aa47;
+}
+
+.cartola {
+  color: #e3662b;
+}
+
+.globoplay {
+  color: #fb0735;
+}
+
+.dropz {
+  color: #ff75bb;
+}
+
+.gshow {
+  color: #ec7d00;
+}
+
+.quem {
+  color: #323333;
+}
+
+.receitas {
+  color: #a81d83;
+}
+
+/* Limpeza do Hyperlink Underline e Color*/
+.navegation a {
+  text-decoration: none;
+}
+.main-article a {
+  text-decoration: none;
+}
+.left-articles-images a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.left-articles-text a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.right-body a {
+  text-decoration: none;
+  color: inherit;
+}
+.body-after-main a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+}

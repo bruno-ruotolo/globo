@@ -1,0 +1,33 @@
+/* CSS de elementos Hover */
+
+h1:hover {
+  transition: color 0.25s linear;
+  color: rgb(247, 74, 74);
+}
+h2:hover {
+  transition: color 0.25s linear;
+  color: #75777e;
+}
+
+h3:hover {
+  transition: color 0.25s linear;
+  color: #63656b;
+}
+
+p:hover {
+  transition: color 0.25s linear;
+  color: #75777e;
+}
+.navegation a:hover {
+  filter: brightness(130%);
+}
+section img:hover {
+  transition: filter 0.25s linear;
+  filter: brightness(85%);
+}
+.principal-logo img {
+  transition: transform 1s ease-in-out;
+}
+.principal-logo img:hover {
+  transform: scale(1.1);
+}
